@@ -7,17 +7,21 @@ type Intention  = Double
 -- | Estimated abstention
 type Abstention = Double
 
-vote :: Intention -> (Abstention, Abstention) -> (Double, Double)
-vote i (a1, a2) = (a' / total, b' / total)
+
+vote :: (Abstention, Abstention) -> Intention -> (Double, Double)
+vote (a1, a2) i = (i', 1- i')
     where
         ia = i
         ib = 1 - i
 
-        a' = ia * a1
-        b' = ib * a2
+        ia' = ia * a1
+        ib' = ib * a2
+        ----------------
+        total = ia' + ib'
         
-        total = a' + b'
-
+        -- >
+        i' = ia' / total
+        -- >
 
 
 someFunc :: IO ()
