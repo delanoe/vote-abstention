@@ -8,8 +8,8 @@ type Intention  = Double
 type Abstention = Double
 
 
-vote :: (Abstention, Abstention) -> Intention -> (Double, Double)
-vote (a1, a2) i = (i', 1- i')
+vote :: (Abstention, Abstention) -> Intention -> Double
+vote (a1, a2) i = i'
     where
         ia = i
         ib = 1 - i
