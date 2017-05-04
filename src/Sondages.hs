@@ -39,6 +39,8 @@ sondages = [ Sondage "Harris"     (jour 2017 04 23) Nothing                  (Ju
            , Sondage "Kantar"     (jour 2017 04 28) (Just $ jour 2017 04 30) (Just 1539)   Nothing   Nothing      Nothing     [(Macron, 0.59)]
            , Sondage "Elabe"      (jour 2017 04 28) (Just $ jour 2017 05 02) (Just 3956)   Nothing   Nothing     (Just 0.11)  [(Macron, 0.59)]
            , Sondage "Ifop"       (jour 2017 04 28) (Just $ jour 2017 05 02) (Just 1388)   Nothing  (Just 0.27)   Nothing     [(Macron, 0.595)]
+           , Sondage "Cevifop"    (jour 2017 04 30) (Just $ jour 2017 05 01) (Just 13742)  Nothing  (Just 0.24)  (Just 0.15)  [(Macron, 0.59)]
+           , Sondage "BVA"        (jour 2017 05 01) (Just $ jour 2017 05 02) (Just 1435)   Nothing  (Just 0.22)   Nothing     [(Macron, 0.60)]
            ]
 
 polls :: [Sondage]
