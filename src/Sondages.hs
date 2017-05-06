@@ -47,6 +47,7 @@ sondages = [ Sondage "Harris"     (jour 2017 04 23) Nothing                  (Ju
            , Sondage "Odoxa"      (jour 2017 05 04)  Nothing                 (Just 998)    Nothing  (Just 0.25)  (Just 0.21)  [(Macron, 0.62)]
            , Sondage "Harris"     (jour 2017 05 02) (Just $ jour 2017 05 05) (Just 4991)   Nothing  (Just 0.25)   Nothing     [(Macron, 0.62)]
            , Sondage "Ifop"       (jour 2017 05 02) (Just $ jour 2017 05 05) (Just 1861)   Nothing  (Just 0.245)  Nothing     [(Macron, 0.63)]
+           , Sondage "Ipsos"      (jour 2017 05 05)  Nothing                 (Just 5331)   Nothing  (Just 0.24)  Nothing      [(Macron, 0.63)]
            ]
 
 polls :: [Sondage]
