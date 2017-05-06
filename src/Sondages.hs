@@ -41,6 +41,12 @@ sondages = [ Sondage "Harris"     (jour 2017 04 23) Nothing                  (Ju
            , Sondage "Ifop"       (jour 2017 04 28) (Just $ jour 2017 05 02) (Just 1388)   Nothing  (Just 0.27)   Nothing     [(Macron, 0.595)]
            , Sondage "Cevifop"    (jour 2017 04 30) (Just $ jour 2017 05 01) (Just 13742)  Nothing  (Just 0.24)  (Just 0.15)  [(Macron, 0.59)]
            , Sondage "BVA"        (jour 2017 05 01) (Just $ jour 2017 05 02) (Just 1435)   Nothing  (Just 0.22)   Nothing     [(Macron, 0.60)]
+           , Sondage "OpinionWay" (jour 2017 05 02) (Just $ jour 2017 05 04) (Just 1500)   Nothing  (Just 0.25)  (Just 0.15)  [(Macron, 0.62)]
+           , Sondage "Elabe"      (jour 2017 05 04)  Nothing                 (Just 1009)   Nothing   Nothing      Nothing     [(Macron, 0.62)]
+           , Sondage "Ipsos"      (jour 2017 05 04)  Nothing                 (Just 2632)   Nothing  (Just 0.24)   Nothing     [(Macron, 0.615)]
+           , Sondage "Odoxa"      (jour 2017 05 04)  Nothing                 (Just 998)    Nothing  (Just 0.25)  (Just 0.21)  [(Macron, 0.62)]
+           , Sondage "Harris"     (jour 2017 05 02) (Just $ jour 2017 05 05) (Just 4991)   Nothing  (Just 0.25)   Nothing     [(Macron, 0.62)]
+           , Sondage "Ifop"       (jour 2017 05 02) (Just $ jour 2017 05 05) (Just 1861)   Nothing  (Just 0.245)  Nothing     [(Macron, 0.63)]
            ]
 
 polls :: [Sondage]
